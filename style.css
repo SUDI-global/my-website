@@ -1,7 +1,27 @@
-/* SUDI GLOBAL INVESTMENT - PROFESSIONAL CORPORATE WEBSITE 2024
-   Ultra-Modern Design with Glassmorphism & Smooth Animations
-*/
+/* ========== MATERIAL ICONS FIX ========== */
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  display: inline-flex;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+}
 
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* ========== VARIABLES ========== */
 :root {
   --primary: #0b2d4d;
   --primary2: #133e64;
@@ -764,6 +784,7 @@ textarea {
 
 .serviceCard__link i {
   transition: var(--transition);
+  font-size: 20px;
 }
 
 .serviceCard__link:hover {
@@ -1437,6 +1458,7 @@ body.nav-open {
 .faq__item summary i {
   transition: transform var(--transition);
   color: var(--accent);
+  font-size: 24px;
 }
 
 .faq__item[open] summary i {
